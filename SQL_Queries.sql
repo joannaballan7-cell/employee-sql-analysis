@@ -25,3 +25,15 @@ SELECT gender,
        COUNT(*) AS employee_count
 FROM employee_demographics
 GROUP BY gender;
+-- Employee salary analysis with demographics
+
+SELECT 
+    d.first_name,
+    d.last_name,
+    d.gender,
+    s.salary,
+    s.occupation
+FROM employee_demographics d
+JOIN employee_salary s
+    ON d.employee_id = s.employee_id
+ORDER BY s.salary DESC;
