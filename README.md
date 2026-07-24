@@ -34,6 +34,9 @@ This analysis answers:
 
 ## Future Improvements
 
+## Screenshot
+
+![Salary Analysis](screenshots/salary_analysis.png)
 - Add SQL JOIN analysis
 - Add visualizations
 - Create a dashboard using Power BI
