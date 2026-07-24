@@ -26,17 +26,27 @@ This analysis answers:
 - Sorting with ORDER BY
 - Aggregate functions
 - GROUP BY
+- JOIN statements
 - Data analysis
 
 ## Project Files
 
-- `SQL_Queries.sql` - Contains all SQL queries used for analysis
-
-## Future Improvements
+- SQL_Queries.sql - Contains all SQL queries used for analysis
 
 ## Screenshot
 
 ![Salary Analysis](screenshots/salary_analysis.png)
-- Add SQL JOIN analysis
-- Add visualizations
-- Create a dashboard using Power BI
+
+## Key Findings
+
+- Combined employee demographic and salary data using SQL JOINs.
+- Analyzed employee compensation data.
+- Ranked employees by salary.
+- Explored workforce demographics.
+- Demonstrated SQL querying and reporting skills.
+
+## Future Improvements
+
+- Add additional JOIN analyses
+- Create visualizations
+- Build a Power BI dashboard
